@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "Hero"
+  "defaultProject": "Hero",
+  "cli": {
+    "analytics": "ec4ed8c5-5ed9-4e9b-a99f-66b855685cee"
+  }
 }
