@@ -1,0 +1,8 @@
+<h2>
+    I have {{heros.length}} Heros
+</h2>
+
+<app-hero-child
+    *ngFor = "let hero of heros"
+    [hero] = "hero"
+></app-hero-child>

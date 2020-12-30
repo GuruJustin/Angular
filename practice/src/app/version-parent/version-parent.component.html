@@ -1,0 +1,11 @@
+<h2>Source Version Control</h2>
+
+<div>
+    <button (click)="newMajor()">Increase Major Version</button>
+    <button (click)="newMinor()">Increase Minor Version</button>
+</div>
+
+<app-version-child
+    [minor]="minor"
+    [major]="major"
+></app-version-child>
