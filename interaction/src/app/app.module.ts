@@ -9,6 +9,8 @@ import { NameChildComponent } from './name-child/name-child.component';
 import { NameParentComponent } from './name-parent/name-parent.component';
 import { VersionParentComponent } from './version-parent/version-parent.component';
 import { VersionChildComponent } from './version-child/version-child.component';
+import { VoketakerComponent } from './voketaker/voketaker.component';
+import { VoterComponent } from './voter/voter.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { VersionChildComponent } from './version-child/version-child.component';
     NameChildComponent,
     NameParentComponent,
     VersionParentComponent,
-    VersionChildComponent
+    VersionChildComponent,
+    VoketakerComponent,
+    VoterComponent
   ],
   imports: [
     BrowserModule,
