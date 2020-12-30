@@ -15,6 +15,5 @@ export class HeroChildComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log('heyhey')
   }
 }
